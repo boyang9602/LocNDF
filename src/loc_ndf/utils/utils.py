@@ -7,6 +7,8 @@ DATA_DIR = os.path.abspath(os.path.join(
     os.path.dirname(__file__), '../../../data/'))
 EXPERIMENT_DIR = os.path.abspath(os.path.join(
     os.path.dirname(__file__), '../../../experiments/'))
+RESULTS_DIR = os.path.abspath(os.path.join(
+    os.path.dirname(__file__), '../../../results/'))
 
 
 def compute_gradient(y: torch.Tensor, x: torch.Tensor, grad_outputs=None):
